@@ -1,0 +1,261 @@
+/*== главная ==*/
+.main-wrapper {
+    width: 100%;
+    max-width: 1280px;
+    height: 1000vh;
+    padding: 0 0px;
+    margin: 0 auto;
+   	background: #f7efef;
+    outline: 0.5px solid #000;
+    line-height: 1.7;
+    color: #777;
+}
+.site-container {
+	width: 100%;
+    max-width: 1125px;
+    /*== height: 100vh; ==*/
+    padding: 0 0px;
+    margin: 0 auto;
+     /*== background: #d8cece; ==*/
+   outline: 0.5px solid yellow;
+}
+div {
+	outline: 0.5px solid #000;
+}
+
+
+/*== меню ==*/
+.filmfreeway-logo img {
+    float: left;
+    width: auto;
+    height: 47px;
+    margin: 14px 0px 0px 0px;
+    padding-right: 336px;
+}
+.nav-item {
+	padding-top: 17px;
+	font-family: "Raleway", Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	zoom: 1;
+	letter-spacing: 1px;
+}
+.justify-content-end {
+	height: 75px;
+	width: 100%;
+}
+
+
+
+/*== BANER ==*/
+.baner {
+    width: 100%;
+    height: 528px;
+    background: url(../img/bg1.jpg);
+    background-size: cover;
+    padding: 0px 0;
+}
+
+.main-headline {
+    text-align: center;
+    width: 100%;
+    font-size: 84px;
+    color: white;
+    font-weight: bold;
+    padding-top: 117px;
+      
+}
+.baner .bd-highlight p {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 21px;
+    margin-top: 2px;
+}
+.p-2 {
+    text-align: center;
+    line-height: 
+}
+
+
+
+/*== buttons ==*/
+.button-wrapper {
+    text-align: center;
+    margin-top: 49px;
+}
+
+h1 {
+	text-align: center;
+	font-size: 86px;
+}
+
+
+
+/*== секция about ==*/
+.section-about {
+	outline: 0.5px solid #000;
+	background: white;
+	padding-bottom: 52px;
+}
+.section-about-subtitle {
+	text-transform: uppercase;
+    font-size: 15px;
+    font-family: cursive;
+    font-family: "Raleway",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    padding-top: 63px;
+    margin-bottom: 0px;
+    color: #aaa;
+    letter-spacing: 1.4px;
+}   
+.about-us {
+	text-transform: uppercase;
+    font-size: 19px;
+    margin-bottom: 0px;
+    margin-top: -2px;
+    font-size: 44px;
+    font-weight: bold;
+    font-family: "Raleway",Helvetica,Arial,sans-serif;
+}
+.flex-row {
+	justify-content: space-between;
+}
+.first {
+	flex-basis: 32%;
+	font-family: "Open Sans",Helvetica,Arial,sans-serif;
+}
+img {
+	vertical-align: middle;
+    border-style: none;
+    height: 192px;
+    width: 364px;
+    margin-top: 15px;
+}
+.about {
+	font-size: 20px;
+    padding-top: 27px;
+}
+.about-text {
+	margin-top: 14px;
+}
+
+
+
+
+/*== SERVICES ==*/
+.our-services {
+	text-transform: uppercase;
+    font-size: 19px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 44px;
+    font-weight: bold;
+    font-family: "Raleway",Helvetica,Arial,sans-serif;
+}
+.section-our-subtitle {
+	text-transform: uppercase;
+    font-size: 15px;
+    font-family: cursive;
+    font-family: "Raleway",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    padding-top: 51px;
+    margin-bottom: 0px;
+    color: #aaa;
+    letter-spacing: 1.4px;
+}
+.second {
+	flex-basis: 50%;
+	padding: 30px;
+	font-family: "Open Sans",Helvetica,Arial,sans-serif;
+	font-size: 14px;
+	padding: 0;
+}
+.second img {
+	float: left;
+	width: 125px;
+	height: 125px;
+}
+.flex-wrap {
+	margin-top: 33px;
+}
+.stand3 {
+	margin-top: 27px;
+}
+.stand4 {
+	margin-top: 27px;
+}
+.services {
+	font-size: 20px;
+    padding-top: 27px;    
+}
+.services-text {
+
+}
+
+
+
+
+	/*== video ==*/
+.section-video {
+	height: 550px;
+	outline: 0.5px solid #000;
+}
+.section-fan-fact {
+	outline: 0.5px solid #000;
+	background: white;
+}
+
+
+/*== секция OUR TEAM ==*/
+.our-team {
+	text-transform: uppercase;
+    font-size: 19px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 44px;
+    font-weight: bold;
+    font-family: "Raleway",Helvetica,Arial,sans-serif;
+}
+.section-team-subtitle {
+	text-transform: uppercase;
+    font-size: 15px;
+    font-family: cursive;
+    font-family: "Raleway",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    padding-top: 51px;
+    margin-bottom: 0px;
+    color: #aaa;
+    letter-spacing: 1.4px;
+}
+
+
+/*== cerwby fan facts ==*/
+.section-fun-subtitle {
+	text-transform: uppercase;
+    font-size: 15px;
+    font-family: cursive;
+    font-family: "Raleway",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    padding-top: 51px;
+    margin-bottom: 0px;
+    color: #aaa;
+    letter-spacing: 1.4px;
+}
+.counter_item {
+    text-align: center;
+    margin-bottom: 35px;
+    margin-bottom: 2.1875rem;
+}
+.counter_item .counter__number {
+    font-size: 50px;
+    font-size: 3.125rem;
+    font-weight: 800;
+    color: #03c4eb;
+    line-height: 1;
+    font-family: serif,sans-serif;
+    text-transform: uppercase;
+}
+.counter_item .counter_title {
+    font-size: 18px;
+    font-size: 1.125rem;
+}
