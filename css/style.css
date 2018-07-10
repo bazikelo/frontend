@@ -6,7 +6,7 @@
     padding: 0 0px;
     margin: 0 auto;
    	background: #f7efef;
-    outline: 0.5px solid #000;
+    /*outline: 0.5px solid #000;*/
     line-height: 1.7;
     color: #777;
 }
@@ -17,10 +17,10 @@
     padding: 0 0px;
     margin: 0 auto;
      /*== background: #d8cece; ==*/
-   outline: 0.5px solid yellow;
+   /*outline: 0.5px solid yellow;*/
 }
 div {
-	outline: 0.5px solid #000;
+	/*outline: 0.5px solid #000;*/
 }
 
 
@@ -73,7 +73,6 @@ div {
 }
 .p-2 {
     text-align: center;
-    line-height: 
 }
 
 
@@ -93,7 +92,7 @@ h1 {
 
 /*== секция about ==*/
 .section-about {
-	outline: 0.5px solid #000;
+	/*outline: 0.5px solid #000;*/
 	background: white;
 	padding-bottom: 52px;
 }
@@ -177,6 +176,7 @@ img {
 }
 .flex-wrap {
 	margin-top: 33px;
+    padding-bottom: 67px;
 }
 .stand3 {
 	margin-top: 27px;
@@ -197,46 +197,28 @@ img {
 
 	/*== video ==*/
 .section-video {
-	height: 550px;
-	outline: 0.5px solid #000;
+	height: 430px;
+	/*outline: 0.5px solid #000;*/
 }
 .section-fan-fact {
-	outline: 0.5px solid #000;
+	/*outline: 0.5px solid #000;*/
 	background: white;
 }
-
-
-/*== секция OUR TEAM ==*/
-.our-team {
-	text-transform: uppercase;
-    font-size: 19px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    font-size: 44px;
-    font-weight: bold;
-    font-family: "Raleway",Helvetica,Arial,sans-serif;
-}
-.section-team-subtitle {
-	text-transform: uppercase;
-    font-size: 15px;
-    font-family: cursive;
-    font-family: "Raleway",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    padding-top: 51px;
-    margin-bottom: 0px;
-    color: #aaa;
-    letter-spacing: 1.4px;
+.embed-responsive {
+    height: 440px;
 }
 
 
-/*== cerwby fan facts ==*/
+
+
+    /*== cerwby fan facts ==*/
 .section-fun-subtitle {
 	text-transform: uppercase;
-    font-size: 15px;
+    font-size: 14px;
     font-family: cursive;
     font-family: "Raleway",Helvetica,Arial,sans-serif;
     font-weight: 700;
-    padding-top: 51px;
+    padding-top: 62px;
     margin-bottom: 0px;
     color: #aaa;
     letter-spacing: 1.4px;
@@ -245,6 +227,7 @@ img {
     text-align: center;
     margin-bottom: 35px;
     margin-bottom: 2.1875rem;
+    padding-top: 55px;
 }
 .counter_item .counter__number {
     font-size: 50px;
@@ -259,3 +242,50 @@ img {
     font-size: 18px;
     font-size: 1.125rem;
 }
+/*== секция OUR TEAM ==*/
+.our-team {
+    text-transform: uppercase;
+    font-size: 19px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 44px;
+    font-weight: bold;
+    font-family: "Raleway",Helvetica,Arial,sans-serif;
+}
+.section-team-subtitle {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: cursive;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    padding-top: 51px;
+    margin-bottom: 0px;
+    color: #aaa;
+    letter-spacing: 1.4px;
+    TEXT-ALIGN: CENTER;
+}
+.member-name {
+      letter-spacing: 2px;
+      margin-bottom: 15px;
+      position: relative;
+      text-align: center;
+  }
+.member-name:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -15%;
+    bottom: -11px;
+    width: 30%;
+    height: 1px;
+    background: #ccc;
+}
+.member-text {
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 1.3px;
+    text-align: center;
+}
+
+
